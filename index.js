@@ -1,10 +1,10 @@
 module.exports = function(sails) {
 
-    var play = require('./lib/play.js');
+    var command = require('./lib/command.js');
     var install = require('./lib/install.js');
 
     return {
-        play: play,
+        command: command,
         install: install
     };
 };
